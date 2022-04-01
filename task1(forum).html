@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <caption>
+        SIGN UP
+      </caption>
+      <br />
+      <br />
+      <div>
+        <label for="firstname">Firstname</label> <br />
+        <input
+          type="text"
+          id="firstname"
+          placeholder="Type your firstname.."
+          name="firstname"
+          minlength="1"
+          maxlength="20"
+        />
+      </div>
+      Did you mean @example.mail.com?
+      <div>
+        <label for="mail">Mail</label> <br />
+        <input
+          type="mail"
+          id="mail"
+          placeholder="Type your email.."
+          name="mail"
+          minlength="1"
+          required
+        />
+      </div>
+      <div>
+        <label for="remail"></label>
+        <input
+          type="mail"
+          id="remail"
+          placeholder="Re-enter email.."
+          name="remail"
+        />
+      </div>
+      <div>
+        <br />
+        <label for="password">Password</label> <br />
+        <input
+          type="password"
+          id="password"
+          placeholder="Type your password.."
+          name="password"
+          minlength="1"
+          required
+        />
+      </div>
+      <div>
+        <label for="repassword"></label>
+        <input
+          type="password"
+          id="repassword"
+          placeholder="Re-enter password.."
+          name="repassword"
+          required
+        />
+      </div>
+      <div>
+        <br /><label for="recieve"
+          >Recieve our weekly newsletter and other occasonal updates</label
+        >
+        <input type="radio" name="recieve" id="recieve" />
+      </div>
+      <button type="create">Create Account</button>
+    </form>
+  </body>
+</html>
